@@ -13,3 +13,26 @@
     justify-content: center;
     flex-direction: column;
 }
+.container p{
+    font-size: 32px;
+    letter-spacing: 4px;
+    color: #777;
+    margin: -250px 0 100px;
+}
+.container input{
+    height: 0;
+    width: 0;
+}
+.container input::before{
+    content: 'h';
+    height: 160px;
+    width: 160px;
+    background-color: turquoise;
+    font-size: 52px;
+    color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-80px);
+    border-radius: 5px;
+}
